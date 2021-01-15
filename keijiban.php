@@ -1,5 +1,5 @@
 <?php
-    //データファイルの読み込み
+    //データファイルの読み込みmi
     $data_file = 'keijiban.txt';
     $ext = file_exists($data_file);
     $lines = $ext ? file($data_file) : array();
